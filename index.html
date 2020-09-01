@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Главная</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__topRow">
+            <nav>
+                <a href="#">Компания</a>
+                <a href="#">Портфолио</a>
+                <a href="#">Проектирование</a>
+                <span>|</span>
+                <a href="#">Ресторанам</a>
+                <a href="#">Застройщикам</a>
+                <a href="#">Гос.заказчикам</a>
+                <a href="#">Таблет-питание</a>
+                <span>|</span>
+                <a href="#">Сервис</a>
+                <a href="#">Контакты</a>
+                <a href="#"><img src="img/email.png" alt="Почта">
+                    <p>info@stolovay.ru</p>
+                </a>
+                <a href="#"><img src="img/telephone.png" alt="Телефон">
+                    <p>8 495 790-72-05</p>
+                </a>
+            </nav>
+        </div>
+        <div class="header__middleRow">
+            <a href="#"><img src="img/logo.png" alt="логотип"></a>
+            <p>Столовая.РУ</p>
+            <select name="type">
+                <option value="all">Все</option>
+                <option value="1" disabled>Выберите категорию</option>
+                <option value="empty" disabled></option>
+                <option value="11">Тепловое</option>
+                <option value="12">Холодильное</option>
+                <option value="13">Электромеханическое</option>
+                <option value="14">Посудомоечное</option>
+                <option value="15">Барное</option>
+                <option value="16">Хлебопекарное</option>
+                <option value="17">Линии раздачи</option>
+                <option value="18">Нейтральное</option>
+                <option value="19">Для фаст фуда</option>
+                <option value="20">Для залов</option>
+                <option value="21">Весовое</option>
+            </select>
+            <input type="text">
+            <button><img src="img/lupa.png" alt="Поиск"></button>
+            <div class="header__middleRow_providers">
+                <img src="img/portalpostavschikov.png" alt="Портал поставщиков">
+                <img src="img/portalpostavschikovHOVER.png" alt="Hover">
+                <p>Мы на портале поставщиков</p>
+            </div>
+            <div class="header__middleRow_cart">
+                <div>
+                    <p>12</p>
+                    <img src="img/cart.png" alt="Корзина">
+                </div>
+                <div>
+                    <p>Сумма</p>
+                    <span>150 000 руб.</span>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottomRow">
+            <figure>
+                <img src="img/menu/1.png" alt="menu item 1">
+                <figcaption>Тепловое</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/2.png" alt="menu item 2">
+                <figcaption>Холодильное</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/3.png" alt="menu item 3">
+                <figcaption>Электромеханическое</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/4.png" alt="menu item 4">
+                <figcaption>Посудомоечное</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/5.png" alt="menu item 5">
+                <figcaption>Хлебопекарное</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/6.png" alt="menu item 6">
+                <figcaption>Линии раздачи</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/7.png" alt="menu item 7">
+                <figcaption>Нейтральное</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/8.png" alt="menu item 8">
+                <figcaption>Для фастфуда</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/9.png" alt="menu item 9">
+                <figcaption>Для залов</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/10.png" alt="menu item 10">
+                <figcaption>Вспомогательное</figcaption>
+            </figure>
+            <figure>
+                <img src="img/menu/11.png" alt="menu item 11">
+                <figcaption>Для магазинов</figcaption>
+            </figure>
+        </div>
+    </header>
+    <section class="offer">
+        <div class="offer__rowWraper">
+            <div class="offer__rowWraper_left">
+                <ul>
+                    <li>Целевые предложения</li>
+                    <li>Кафе, барам, ресторанам <span> > </span> </li>
+                    <li>Детским садам и школам <span> > </span> </li>
+                    <li>Таблет-питание <span> > </span> </li>
+                    <li>Для столовых <span> > </span> </li>
+                    <li>Для пищеблоков <span> ></span> </li>
+                    <li>Государственным заказчикам <span> > </span> </li>
+                    <li>Для магазинов <span> > </span> </li>
+                    <li>Для войсковых частей <span> > </span> </li>
+                    <li>Все предложения <span> > </span></li>
+                </ul>
+            </div>
+            <div class="offer__rowWraper_center">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="slider__text">
+                                <h4>Портфолио</h4>
+                                <h3>НИИ скорой помощи</h3>
+                                <h3>им. Н.В. Склифосовского</h3>
+                                <p>Оборудование для пищеблоков</p>
+                                <a href="#">Подробнее</a>
+                                <img src="img/slide1.png" alt="slider item 1">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__text">
+                                <h4>Портфолио</h4>
+                                <h3>НИИ скорой помощи</h3>
+                                <h3>им. Н.В. Склифосовского</h3>
+                                <p>Оборудование для пищеблоков</p>
+                                <a href="#">Подробнее</a>
+                                <img src="img/slide1.png" alt="slider item 1">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__text">
+                                <h4>Портфолио</h4>
+                                <h3>НИИ скорой помощи</h3>
+                                <h3>им. Н.В. Склифосовского</h3>
+                                <p>Оборудование для пищеблоков</p>
+                                <a href="#">Подробнее</a>
+                                <img src="img/slide1.png" alt="slider item 1">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__text">
+                                <h4>Портфолио</h4>
+                                <h3>НИИ скорой помощи</h3>
+                                <h3>им. Н.В. Склифосовского</h3>
+                                <p>Оборудование для пищеблоков</p>
+                                <a href="#">Подробнее</a>
+                                <img src="img/slide1.png" alt="slider item 1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="offer__rowWraper_right">
+                <img src="img/giftbox.png" alt="giftbox">
+                <p>Самые низкие цены</p>
+                <h2>Распродажа</h2>
+                <a href="#">Каталог распродаж </a><span style="margin-left: 10px;"> > </span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="offer__brands">
+            <img src="img/brands/brand1.png" alt="brand1">
+            <img src="img/brands/brand2.png" alt="brand2">
+            <img src="img/brands/brand3.png" alt="brand3">
+            <img src="img/brands/brand4.png" alt="brand4">
+            <img src="img/brands/brand5.png" alt="brand5">
+            <a href="#">Все бренды</a>
+        </div>
+        <div class="offer__specRow">
+            <div class="specRow__left">
+                <h4>Специальные предложения<span> > </span></h4>
+                <div class="left__wraper">
+                    <figure>
+                        <img src="img/spec/spec.png" alt="Специальное предложение">
+                        <figcaption>
+                            <img src="img/spec/flag.png" alt="flag">
+                            <p>Пароконвектомат ПКН-6</p>
+                            <p>160 000 руб.</p>
+                            <img src="img/brands/brand1.png" alt="brand">
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/spec/spec.png" alt="Специальное предложение">
+                        <figcaption>
+                            <img src="img/spec/flag.png" alt="flag">
+                            <p>Пароконвектомат ПКН-6</p>
+                            <p>160 000 руб.</p>
+                            <img src="img/brands/brand1.png" alt="brand">
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/spec/spec.png" alt="Специальное предложение">
+                        <figcaption>
+                            <img src="img/spec/flag.png" alt="flag">
+                            <p>Пароконвектомат ПКН-6</p>
+                            <p>160 000 руб.</p>
+                            <img src="img/brands/brand1.png" alt="brand">
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="specRow__right">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/spec/service.png" alt="service">
+                            <div>
+                                <h4>Сервис</h4>
+                                <p>Гарантийный ремонт, монтажи и т.д.</p>
+                                <p>Подробнее <a href="#">></a> </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/spec/service.png" alt="service">
+                            <div>
+                                <h4>Сервис</h4>
+                                <p>Гарантийный ремонт, монтажи и т.д.</p>
+                                <p>Подробнее <a href="#">></a> </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/spec/service.png" alt="service">
+                            <div>
+                                <h4>Сервис</h4>
+                                <p>Гарантийный ремонт, монтажи и т.д.</p>
+                                <p>Подробнее <a href="#">></a> </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/spec/service.png" alt="service">
+                            <div>
+                                <h4>Сервис</h4>
+                                <p>Гарантийный ремонт, монтажи и т.д.</p>
+                                <p>Подробнее <a href="#">></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="news__wraper">
+            <div class="news__left">
+                <h3>Новости производителей</h3>
+                <img src="img/news/news1.png" alt="news item 1">
+                <div class="Abat__label">
+                    <p>Abat</p><span>22.06.17</span>
+                </div>
+                <h4>Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР</h4>
+                <p>Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР: в комплекте тележка-шпилька ТШГ-18 на 18 уровней 600х800 мм вместимость тележки-шпильки - 135 хлебных форм №7
+                    инжекционный тип парообразования
+                    разборная конструкция увеличенное стекло двери.
+                    Память на 110 программ (до 4-ех этапов в каждой программе)
+                    USB-порт. Таймер до 10 ч
+                    Регулировка влажности от 0 до 100%. 5 скоро</p>
+                <a href="#"> Все новости</a>
+            </div>
+            <div class="news__right">
+                <div>
+                    <img src="img/news/news2.png" alt="news item 2">
+                    <div class="item__text">
+                        <div class="Abat__label-right">
+                            <p>Abat</p><span>22.06.17</span>
+                        </div>
+                        <h4>Повышение энерго эффетивности тунельных посудомоечных машин МПТ тороговой марки Abbat</h4>
+                        <p>С целью снижения нагрузки на электрическую сеть и для повышения энергоэффективности изделий с 1 июня 2017 года был изменен алгоритм работы туннельных посудомоечных машин МПТ торговой марки Abat всех моделей... </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/news/news3.png" alt="news item 2">
+                    <div class="item__text">
+                        <div class="Abat__label-right">
+                            <p>Abat</p><span>22.06.17</span>
+                        </div>
+                        <h4>Повышение энерго эффетивности тунельных посудомоечных машин МПТ тороговой марки Abbat</h4>
+                        <p>С целью снижения нагрузки на электрическую сеть и для повышения энергоэффективности изделий с 1 июня 2017 года был изменен алгоритм работы туннельных посудомоечных машин МПТ торговой марки Abat всех моделей... </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/news/news2.png" alt="news item 2">
+                    <div class="item__text">
+                        <div class="Abat__label-right">
+                            <p>Abat</p><span>22.06.17</span>
+                        </div>
+                        <h4>Повышение энерго эффетивности тунельных посудомоечных машин МПТ тороговой марки Abbat</h4>
+                        <p>С целью снижения нагрузки на электрическую сеть и для повышения энергоэффективности изделий с 1 июня 2017 года был изменен алгоритм работы туннельных посудомоечных машин МПТ торговой марки Abat всех моделей... </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recomends">
+        <h4>Рекомендуем</h4>
+        <p>
+            В этих разделах вы можете получить подробную информацию о пищевом оборудовании
+            для столовых, ресторанов и кафе ведущих производителей.
+        </p>
+        <div class="recomends__top">
+            <div>
+                <figure>
+                    <img src="img/recomendation/recomend1.png" alt="Recomendation 1">
+                    <figcaption>
+                        <h5>unox</h5>
+                        <h3>Пароконвектоматы</h3>
+                        <p>
+                            Благодаря своей универсальности пароконвектоматы быстро завоевывают пользователей по всему миру.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <img src="img/recomendation/recomend2.png" alt="Recomendation 2">
+                <h5>hallde</h5>
+                <h3>Овощерезки</h3>
+                <p name="description">Мощный двигатель переводит высокий крутящий момент на режущий инструмент</p>
+            </div>
+            <div>
+                <img src="img/recomendation/recomend3.png" alt="Recomendation 3">
+                <h5>simeco</h5>
+                <h3>Нержавеющее</h3>
+                <p name="description">Конструктивные особенности изделий отличаются высокой прочностью</p>
+            </div>
+        </div>
+        <div class="recomends__bottom">
+            <div class="bottom__left">
+                <figure>
+                    <figcaption>
+                        <h5>rational</h5>
+                        <h3>Пароконвектоматы</h3>
+                        <p>
+                            Педантичность и преданность своему делу делает продукцию Rational идеальной для тех, кто ищет надежность и долговечность.
+                        </p>
+                    </figcaption>
+                    <img src="img/recomendation/recomend4.png" alt="Recomendation 4">
+                </figure>
+            </div>
+            <div class="bottom__wraper">
+                <div class="wraper__item">
+                    <figure>
+                        <img src="img/recomendation/recomend5.png" alt="Recomendation 5">
+                        <figcaption>
+                            <h5>abat</h5>
+                            <h3>
+                                Тепловое
+                                оборудование
+                            </h3>
+                            <p>
+	                            Более 55 лет успешно работает на рынке торгово-технологического оборудования, по праву занимая лидирующее положение в данном сегменте.
+                        	</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="wraper__item">
+                    <figure>
+                        <figcaption>
+                            <h5>hicold</h5>
+                            <h3>Холодильные столы</h3>
+                            <p>
+                            	Многофункциональность оборудования позволяет оптимизировать пространство на кухне, сделать работу персонала максимально удобной и эффективной.
+                            </p>
+                        </figcaption>
+                        <img src="img/recomendation/recomend6.png" alt="Recomendation 6">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="solutions">
+        <div class="solutions__left">
+            <h4>
+                Комплексные решения оснащения столовых
+                и кафе
+            </h4>
+            <p>
+                Компания предлагает комплексное оснащение столовых, ресторанов, кафе и баров в Москве. Наши услуги построены по принципу полного цикла обслуживания предприятий общепита и бизнеса HoReCa.
+            </p>
+            <p>
+                Иными словами, мы предлагаем проектирование «под ключ» и постгарантийное обслуживание. География работы компании охватывает всю страну. При этом в каждом регионе мы готовы предложить демократичные цены на профессиональное технологическое оборудование для столовой и оптимальные решения с точки зрения эффективности бизнеса, приемлемым уровнем производительности в условиях ограниченного бюджета.
+            </p>
+            <h4>Что мы предлагаем</h4>
+            <p>
+                Разработку технологического проекта кухни и производственной линии, дизайна ресторанного интерьера;
+                составление меню согласно концепции и оснащения бара (кафе, столовой);подбор посуды, текстиля под общий стиль; профессиональное оборудование для кафе, бара и ресторана, большой выбор современных моделей; доставку в любой регион РФ;
+                монтажные и пуско-наладочные работы; автоматизацию производственного процесса, что позволяет определённое оборудование для бара;
+            </p>
+            <button onclick="alert('click')">+</button>
+        </div>
+        <div class="solutions__right">
+            <img src="img/logo.png" alt="logo">
+            <h3>Столовая.РУ</h3>
+            <p>создание оптимальных пищеблоков</p>
+            <h5>Группа компаний</h5>
+            <p>Показатели:</p>
+            <p>На рынке:5 лет</p>
+            <p>Объём контрактов:4 млрд.р.</p>
+            <p>Количество контрактов:620</p>
+        </div>
+    </section>
+    <section class="ourClients">
+        <h2>Наши клиенты</h2>
+        <div class="clients">
+            <figure>
+                <img src="img/clients/client1.png" alt="client1">
+                <figcaption>
+                    <p>client1</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client2.png" alt="client2">
+                <figcaption>
+                    <p>client2</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client3.png" alt="client3">
+                <figcaption>
+                    <p>client3</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client4.png" alt="client4">
+                <figcaption>
+                    <p>client4</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client5.png" alt="client5">
+                <figcaption>
+                    <p>client5</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client6.png" alt="client6">
+                <figcaption>
+                    <p>client6</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client7.png" alt="client7">
+                <figcaption>
+                    <p>client7</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client8.png" alt="client8">
+                <figcaption>
+                    <p>client8</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client9.png" alt="client9">
+                <figcaption>
+                    <p>client9</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client10.png" alt="client10">
+                <figcaption>
+                    <p>client10</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client11.png" alt="client11">
+                <figcaption>
+                    <p>client11</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/clients/client12.png" alt="client12">
+                <figcaption>
+                    <p>client12</p>
+                </figcaption>
+            </figure>
+            <div class="clients__noLabel">
+            	
+                <img src="img/clients/client13.png" alt="client13">
+                <img src="img/clients/client14.png" alt="client14">
+                <img src="img/clients/client15.png" alt="client15">
+                <img src="img/clients/client16.png" alt="client16">
+                <img src="img/clients/client17.png" alt="client17">
+                <img src="img/clients/client18.png" alt="client18">
+            </div>	
+        </div>
+    </section>
+    <footer>
+        <div class="footer__top">
+            <div>
+                <h3>Информация</h3>
+                <ul>
+                    <a href="#">
+                        <li>Компания</li>
+                    </a>
+                    <a href="#">
+                        <li>Портфолио</li>
+                    </a>
+                    <a href="#">
+                        <li>Проектирование</li>
+                    </a>
+                    <a href="#">
+                        <li>Ресторанам</li>
+                    </a>
+                    <a href="#">
+                        <li>Застройщикам</li>
+                    </a>
+                    <a href="#">
+                        <li>Гос.заказчикам</li>
+                    </a>
+                    <a href="#">
+                        <li>Таблет-питание</li>
+                    </a>
+                    <a href="#">
+                        <li>Сервис</li>
+                    </a>
+                    <a href="#">
+                        <li>Новости</li>
+                    </a>
+                    <a href="#">
+                        <li>Контакты</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h3>Оборудование</h3>
+                <ul>
+                    <a href="#">
+                        <li>Тепловое</li>
+                    </a>
+                    <a href="#">
+                        <li>Холодильное</li>
+                    </a>
+                    <a href="#">
+                        <li>Электромеханическое</li>
+                    </a>
+                    <a href="#">
+                        <li>Посудомоечное</li>
+                    </a>
+                    <a href="#">
+                        <li>Барное</li>
+                    </a>
+                    <a href="#">
+                        <li>Хлебопекарное</li>
+                    </a>
+                    <a href="#">
+                        <li>Линии раздачи</li>
+                    </a>
+                    <a href="#">
+                        <li>Нейтральное</li>
+                    </a>
+                    <a href="#">
+                        <li>Для фаст фуда</li>
+                    </a>
+                    <a href="#">
+                        <li>Для залов</li>
+                    </a>
+                    <a href="#">
+                        <li>Весовое</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h3>Предложения</h3>
+                <ul>
+                    <a href="#">
+                        <li>Кафе,барам,ресторанам</li>
+                    </a>
+                    <a href="#">
+                        <li>Детским садам и школам</li>
+                    </a>
+                    <a href="#">
+                        <li>Таблет-питание</li>
+                    </a>
+                    <a href="#">
+                        <li>Для кондитерских</li>
+                    </a>
+                    <a href="#">
+                        <li>Для пиццерий</li>
+                    </a>
+                    <a href="#">
+                        <li>Для магазинов</li>
+                    </a>
+                    <a href="#">
+                        <li>Для войсковых частей</li>
+                    </a>
+                    <a href="#">
+                        <li>Все предложения</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h3>Контакты</h3>
+                <ul>
+                    <li>8 495 150-31-71</li>
+                    <li>8 800 500-43-4</li>
+                    <li atr='last'>звонок бесплатный</li>
+                    <li>Пн-Пт</li>
+                    <li atr="last">09:00 до 18:00</li>
+                    <li>com@stolovaya.ru</li>
+                    <li atr="last">info@stolovaya.ru</li>
+                    <li>111524,Москва</li>
+                    <li>Рязанский проспект 24к2</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div>
+                <img src="img/logo.png" alt="logo">
+                <div name="footer__logo_text">
+                    <h5>Столовая.РУ</h5>
+                    <p>Создание оптимальных пищеблоков</p>
+                </div>
+            </div>
+            <p atr="left">Сайт разработан NTI-systems</p>
+        </div>
+    </footer>
+    <script type="module">
+        try{
+
+ var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
+	}
+	catch(error){
+		alert(error);
+	};
+</script>
+</body>
+
+</html>
